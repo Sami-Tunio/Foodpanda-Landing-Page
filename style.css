@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 1370px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.logo {
+    height: 60px;
+    width: 850px;
+    border: 4px solid white;
+    padding-left: 50px;
+}
+
+#pic {
+    background-image: url(pic.png);
+    background-size: cover;
+    width: 200px;
+    height: 100%;
+}
+
+#log-in {
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Open Sans, arial, sans-serif;
+}
+
+#log-in:hover {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 75px;
+}
+
+
+#sign-up {
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(250, 39, 110);
+    color: white;
+    cursor: pointer;
+    font-family: Open Sans, arial, sans-serif;
+}
+
+#sign-up:hover {
+    background-color: rgb(233, 7, 82);
+    height: 35px;
+    width: 75px;
+}
+
+
+#world {
+    height: 30px;
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: Open Sans, arial, sans-serif ;
+}
+
+#world:hover {
+    font-size: 20px;
+}
+
+
+#shop {
+    height: 30px;
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#shop :hover {
+    font-size: 20px;
+}
+
+
+.content {
+    height: 550px;
+    width: 1370px;
+    margin: 2px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#content-text {
+    height: 100px;
+    width: 700px;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-left: 30px;
+    font-family: Open Sans, arial, sans-serif;
+}
+
+#pic1 {
+    height: 550px;
+    width: 550px;
+    /* border: 2px solid black; */
+    background-image: url(content.png);
+    background-size: cover;
+}
+
+.search {
+    height: 70px;
+    width: 700px;
+    border: 1px solid rgb(247, 242, 242);
+    margin: 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.location {
+    height: 50px;
+    width: 550px;
+    border: 1px solid rgb(221, 213, 213);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 8px;
+    color: gray;
+    font-family: Open Sans, arial, sans-serif;
+
+}
+
+.location-name {
+    height: 50px;
+    width: 90px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(250, 39, 110);
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: Open Sans, arial, sans-serif;
+}
+
+.location-name:hover {
+    background-color: rgb(233, 7, 82);
+    height: 55px;
+    width: 95px;
+    font-size: 16px;
+}
+
+#location-icon {
+    font-size: 20px;
+    color: black;
+    font-family: Open Sans, arial, sans-serif;
+}
